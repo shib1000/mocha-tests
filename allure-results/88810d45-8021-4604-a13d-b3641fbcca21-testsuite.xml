@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577739084173' stop='1577739084174'>
+    <name>#String Operations() #String Length</name>
+    <title>#String Operations() #String Length</title>
+    <test-cases>
+        <test-case start='1577739084173' status='passed' stop='1577739084174'>
+            <name>Length of a String</name>
+            <title>Length of a String</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577739084174' status='passed' stop='1577739084174'>
+            <name>Length of a Phrase</name>
+            <title>Length of a Phrase</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

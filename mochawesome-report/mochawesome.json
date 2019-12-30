@@ -1,0 +1,416 @@
+{
+  "stats": {
+    "suites": 6,
+    "tests": 8,
+    "passes": 6,
+    "pending": 0,
+    "failures": 2,
+    "start": "2019-12-30T20:13:31.174Z",
+    "end": "2019-12-30T20:13:31.185Z",
+    "duration": 11,
+    "testsRegistered": 8,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e0b168a6-9989-4e14-b566-8a567c5dd935",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0a390cad-7c67-4bf0-ab92-61e7704e8ede",
+          "title": "#String Operations()",
+          "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js",
+          "file": "/tests/sample-test1.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "f3d63574-1fb3-4414-aa89-d5105941d009",
+              "title": "#String reversal",
+              "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js",
+              "file": "/tests/sample-test1.js",
+              "beforeHooks": [
+                {
+                  "title": "\"before each\" hook",
+                  "fullTitle": "#String Operations() #String reversal \"before each\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// ...some logic before each test is run",
+                  "err": {},
+                  "uuid": "4300a12d-65c0-4781-bf3c-08d4ed621fb1",
+                  "parentUUID": "f3d63574-1fb3-4414-aa89-d5105941d009",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Reverse a String",
+                  "fullTitle": "#String Operations() #String reversal Reverse a String",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.reverse(\"hello\")).to.equal(\"olleh\");",
+                  "err": {},
+                  "uuid": "60dbf691-32f2-47f6-b571-db239c5fdecf",
+                  "parentUUID": "f3d63574-1fb3-4414-aa89-d5105941d009",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Reverse a Phrase",
+                  "fullTitle": "#String Operations() #String reversal Reverse a Phrase",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\n//expect(srcfunctions.reverse(\"hello sam\")).to.equal(\"mas olleh\");\nexpect(srcfunctions.reverse(\"hello sam\")).to.equal(\"mas olleh \");",
+                  "err": {
+                    "message": "AssertionError: expected 'mas olleh' to equal 'mas olleh '",
+                    "estack": "AssertionError: expected 'mas olleh' to equal 'mas olleh '\n    at Context.<anonymous> (tests/sample-test1.js:20:52)",
+                    "diff": "- mas olleh\n+ mas olleh \n"
+                  },
+                  "uuid": "6ba8e939-b231-4b57-991d-0555e6020bb5",
+                  "parentUUID": "f3d63574-1fb3-4414-aa89-d5105941d009",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "60dbf691-32f2-47f6-b571-db239c5fdecf"
+              ],
+              "failures": [
+                "6ba8e939-b231-4b57-991d-0555e6020bb5"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 2,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "34519d6e-2f0b-47e1-b289-f8a4e15a3d83",
+              "title": "#String Length",
+              "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js",
+              "file": "/tests/sample-test1.js",
+              "beforeHooks": [
+                {
+                  "title": "\"before each\" hook",
+                  "fullTitle": "#String Operations() #String Length \"before each\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// ...some logic before each test is run",
+                  "err": {},
+                  "uuid": "a2f6dbe3-61da-41dd-8ecb-eea4073979e0",
+                  "parentUUID": "34519d6e-2f0b-47e1-b289-f8a4e15a3d83",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Length of a String",
+                  "fullTitle": "#String Operations() #String Length Length of a String",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.length(\"hello\")).to.equal(5);",
+                  "err": {},
+                  "uuid": "ecf6378e-8a59-4251-8e8b-2d0f961ef8da",
+                  "parentUUID": "34519d6e-2f0b-47e1-b289-f8a4e15a3d83",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Length of a Phrase",
+                  "fullTitle": "#String Operations() #String Length Length of a Phrase",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.length(\"hello sam\")).to.equal(9);",
+                  "err": {},
+                  "uuid": "e2c41d3e-66fd-42f0-afec-5a48fa94cbae",
+                  "parentUUID": "34519d6e-2f0b-47e1-b289-f8a4e15a3d83",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "ecf6378e-8a59-4251-8e8b-2d0f961ef8da",
+                "e2c41d3e-66fd-42f0-afec-5a48fa94cbae"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6f0c8304-7d79-4f6a-981f-9e8e22eb12df",
+          "title": "#Arithmatic Operations",
+          "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js",
+          "file": "/tests/sample-test2.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "#Arithmatic Operations \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// ...some logic before each test is run",
+              "err": {},
+              "uuid": "d2607421-9077-45d9-9695-9fd76f1e1582",
+              "parentUUID": "6f0c8304-7d79-4f6a-981f-9e8e22eb12df",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "31439e85-38f6-4008-a8df-18b975a4a882",
+              "title": "#multiplication()",
+              "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js",
+              "file": "/tests/sample-test2.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should mutiply two numbers",
+                  "fullTitle": "#Arithmatic Operations #multiplication() should mutiply two numbers",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.multiply(1, 2)).to.equal(2);",
+                  "err": {},
+                  "uuid": "764211fe-e5e6-43d4-9845-ac8a16e7b569",
+                  "parentUUID": "31439e85-38f6-4008-a8df-18b975a4a882",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should mutiply multiple numbers",
+                  "fullTitle": "#Arithmatic Operations #multiplication() should mutiply multiple numbers",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\n//expect(srcfunctions.multiply(1, 2, 3, 4, 5)).to.equal(120);\nexpect(srcfunctions.multiply(1, 2, 3, 4, 5)).to.equal(121);",
+                  "err": {
+                    "message": "AssertionError: expected 120 to equal 121",
+                    "estack": "AssertionError: expected 120 to equal 121\n    at Context.<anonymous> (tests/sample-test2.js:20:55)",
+                    "diff": "- 120\n+ 121\n"
+                  },
+                  "uuid": "3fc90138-5da5-41de-b033-79cd3289d5f6",
+                  "parentUUID": "31439e85-38f6-4008-a8df-18b975a4a882",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "764211fe-e5e6-43d4-9845-ac8a16e7b569"
+              ],
+              "failures": [
+                "3fc90138-5da5-41de-b033-79cd3289d5f6"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "6ac4a61f-23ba-47cf-b832-d1ee56bb415b",
+              "title": "#Addition()",
+              "fullFile": "/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js",
+              "file": "/tests/sample-test2.js",
+              "beforeHooks": [
+                {
+                  "title": "\"before each\" hook",
+                  "fullTitle": "#Arithmatic Operations #Addition() \"before each\" hook",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": null,
+                  "speed": null,
+                  "pass": false,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// ...some logic before each test is run",
+                  "err": {},
+                  "uuid": "32df79d3-822b-4d14-828b-132069bb6dd2",
+                  "parentUUID": "6ac4a61f-23ba-47cf-b832-d1ee56bb415b",
+                  "isHook": true,
+                  "skipped": false
+                }
+              ],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should add two numbers",
+                  "fullTitle": "#Arithmatic Operations #Addition() should add two numbers",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.sum(1, 2)).to.equal(3);",
+                  "err": {},
+                  "uuid": "efd3abd4-83f0-4f52-9c0d-9dc11fa34068",
+                  "parentUUID": "6ac4a61f-23ba-47cf-b832-d1ee56bb415b",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "should add multiple numbers",
+                  "fullTitle": "#Arithmatic Operations #Addition() should add multiple numbers",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// add an assertion\nexpect(srcfunctions.sum(1, 2, 3, 4, 5)).to.equal(15);",
+                  "err": {},
+                  "uuid": "982e6536-c4ed-4815-8ee8-85b569683a83",
+                  "parentUUID": "6ac4a61f-23ba-47cf-b832-d1ee56bb415b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "efd3abd4-83f0-4f52-9c0d-9dc11fa34068",
+                "982e6536-c4ed-4815-8ee8-85b569683a83"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.1.0"
+    }
+  }
+}

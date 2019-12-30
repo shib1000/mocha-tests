@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-12-30T20:09:25" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="#String Operations()" timestamp="2019-12-30T20:09:25" tests="0" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="#String reversal" timestamp="2019-12-30T20:09:25" tests="2" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js" failures="0" time="0">
+    <testcase name="#String Operations() #String reversal Reverse a String" time="0" classname="Reverse a String">
+    </testcase>
+    <testcase name="#String Operations() #String reversal Reverse a Phrase" time="0" classname="Reverse a Phrase">
+    </testcase>
+  </testsuite>
+  <testsuite name="#String Length" timestamp="2019-12-30T20:09:25" tests="2" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test1.js" failures="0" time="0">
+    <testcase name="#String Operations() #String Length Length of a String" time="0" classname="Length of a String">
+    </testcase>
+    <testcase name="#String Operations() #String Length Length of a Phrase" time="0" classname="Length of a Phrase">
+    </testcase>
+  </testsuite>
+  <testsuite name="#Arithmatic Operations" timestamp="2019-12-30T20:09:25" tests="0" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js" failures="0" time="0">
+  </testsuite>
+  <testsuite name="#multiplication()" timestamp="2019-12-30T20:09:25" tests="2" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js" failures="0" time="0">
+    <testcase name="#Arithmatic Operations #multiplication() should mutiply two numbers" time="0" classname="should mutiply two numbers">
+    </testcase>
+    <testcase name="#Arithmatic Operations #multiplication() should mutiply multiple numbers" time="0" classname="should mutiply multiple numbers">
+    </testcase>
+  </testsuite>
+  <testsuite name="#Addition()" timestamp="2019-12-30T20:09:25" tests="2" file="/Users/shibmish/gitprojects/mocha-tests/tests/sample-test2.js" failures="0" time="0">
+    <testcase name="#Arithmatic Operations #Addition() should add two numbers" time="0" classname="should add two numbers">
+    </testcase>
+    <testcase name="#Arithmatic Operations #Addition() should add multiple numbers" time="0" classname="should add multiple numbers">
+    </testcase>
+  </testsuite>
+</testsuites>

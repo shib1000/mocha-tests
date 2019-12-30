@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577739084176' stop='1577739084176'>
+    <name>#Arithmatic Operations #Addition()</name>
+    <title>#Arithmatic Operations #Addition()</title>
+    <test-cases>
+        <test-case start='1577739084176' status='passed' stop='1577739084176'>
+            <name>should add two numbers</name>
+            <title>should add two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577739084176' status='passed' stop='1577739084176'>
+            <name>should add multiple numbers</name>
+            <title>should add multiple numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

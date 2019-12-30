@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/shib1000/mocha-tests/issues"
   },
-  "homepage": "https://github.com/shib1000/mocha-tests#readme"
+  "homepage": "https://github.com/shib1000/mocha-tests#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha-junit-reporter": "^1.23.1",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0"
+  }
 }

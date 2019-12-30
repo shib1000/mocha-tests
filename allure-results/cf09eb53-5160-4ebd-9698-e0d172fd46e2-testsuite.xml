@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577739084165' stop='1577739084168'>
+    <name>#String Operations() #String reversal</name>
+    <title>#String Operations() #String reversal</title>
+    <test-cases>
+        <test-case start='1577739084165' status='passed' stop='1577739084167'>
+            <name>Reverse a String</name>
+            <title>Reverse a String</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577739084167' status='failed' stop='1577739084168'>
+            <name>Reverse a Phrase</name>
+            <title>Reverse a Phrase</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'mas olleh' to equal 'mas olleh '</message>
+                <stack-trace>AssertionError: expected 'mas olleh' to equal 'mas olleh '
+                    at Context.&lt;anonymous> (test/sample-test1.js:20:52)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
